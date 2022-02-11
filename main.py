@@ -54,7 +54,7 @@ def changePlayer():
         who = 0
 
 print()
-print("Welcome to Numan Personal Tic Tac Toe game")
+print("Welcome to Numan Personal Tic Tac Toe game.")
 print()
 
 displayBoard()
