@@ -8,8 +8,8 @@ who = 0     # 0 means Player 1 (O letter),   1 means player 2 (X letter)
 
 isTwoPlayer = True
 choice = input("""Welcome to Tic Tac Toe game. 
-        Choice 1 - 2 player mode
-        choice 2 - vs computer mode
+        Choice 1 - 2 player mode.
+        choice 2 - vs computer mode.
         type your choice 1 or 2 : """)
 if choice == "2":
     isTwoPlayer = False
