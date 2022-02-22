@@ -118,7 +118,7 @@ def moveVsComputer(who):
 
         else:
             if board[1][1] == " ":
-                board[1][1] = "X"
+                 board[1][1] = "X"
             elif " " in board[0]:
                 board[0][board[0].index(" ")] = "X"
             elif " " in board[1]:

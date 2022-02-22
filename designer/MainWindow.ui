@@ -2,6 +2,19 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>413</width>
+    <height>449</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>25</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Tic Tac Toe (Numan Edition)</string>
   </property>
@@ -13,7 +26,7 @@ background-color: rgb(172, 255, 224);</string>
    <widget class="QLabel" name="labelWelcome">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>80</x>
       <y>10</y>
       <width>261</width>
       <height>31</height>
@@ -38,7 +51,7 @@ background-color: rgb(172, 255, 224);</string>
    <widget class="QLabel" name="labelWho">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>150</x>
       <y>50</y>
       <width>101</width>
       <height>16</height>
@@ -50,7 +63,7 @@ background-color: rgb(172, 255, 224);</string>
      </font>
     </property>
     <property name="text">
-     <string>AAAA</string>
+     <string>Player 1! Tick (X)</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -59,7 +72,7 @@ background-color: rgb(172, 255, 224);</string>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>50</x>
       <y>190</y>
       <width>311</width>
       <height>141</height>
@@ -79,7 +92,7 @@ background-color: rgb(172, 255, 224);</string>
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>50</x>
       <y>100</y>
       <width>311</width>
       <height>131</height>
@@ -96,33 +109,13 @@ background-color: rgb(172, 255, 224);</string>
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_3">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>290</y>
-      <width>311</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_4">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>140</x>
       <y>90</y>
       <width>20</width>
-      <height>331</height>
+      <height>251</height>
      </rect>
     </property>
     <property name="orientation">
@@ -132,10 +125,10 @@ background-color: rgb(172, 255, 224);</string>
    <widget class="Line" name="line_5">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>260</x>
       <y>90</y>
       <width>16</width>
-      <height>331</height>
+      <height>251</height>
      </rect>
     </property>
     <property name="orientation">
@@ -145,7 +138,7 @@ background-color: rgb(172, 255, 224);</string>
    <widget class="QPushButton" name="pushButton_1">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>60</x>
       <y>90</y>
       <width>75</width>
       <height>71</height>
@@ -168,13 +161,13 @@ border-radius:25
 </string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>170</x>
       <y>90</y>
       <width>75</width>
       <height>71</height>
@@ -195,13 +188,13 @@ border-radius:25
 border-radius:25</string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>280</x>
       <y>90</y>
       <width>75</width>
       <height>71</height>
@@ -223,13 +216,13 @@ border-radius:25
 </string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>60</x>
       <y>180</y>
       <width>75</width>
       <height>71</height>
@@ -251,13 +244,13 @@ border-radius:25
 </string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>170</x>
       <y>180</y>
       <width>75</width>
       <height>71</height>
@@ -278,13 +271,13 @@ border-radius:25
 border-radius:25</string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>280</x>
       <y>180</y>
       <width>75</width>
       <height>71</height>
@@ -305,13 +298,13 @@ border-radius:25</string>
 border-radius:25</string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>60</x>
       <y>270</y>
       <width>75</width>
       <height>71</height>
@@ -332,13 +325,13 @@ border-radius:25</string>
 border-radius:25</string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>170</x>
       <y>270</y>
       <width>75</width>
       <height>71</height>
@@ -359,13 +352,13 @@ border-radius:25</string>
 border-radius:25</string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_9">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>280</x>
       <y>270</y>
       <width>75</width>
       <height>71</height>
@@ -386,7 +379,35 @@ border-radius:25</string>
 border-radius: 25</string>
     </property>
     <property name="text">
-     <string>X</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>360</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(47, 255, 24);</string>
+    </property>
+    <property name="text">
+     <string>Try Again</string>
     </property>
    </widget>
   </widget>
@@ -395,7 +416,7 @@ border-radius: 25</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>444</width>
+     <width>413</width>
      <height>21</height>
     </rect>
    </property>

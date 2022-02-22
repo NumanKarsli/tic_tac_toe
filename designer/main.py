@@ -9,7 +9,7 @@ board = [
     [" ", " ", " "],
 ]
 
-who = 0     # 0 means Player 1 (X letter),   1 means player 2 (O letter)
+who = 0     # 0 means Player 1 (X letter),   1 means player 2 (O letter) 
 
 class TicTacToeGame(QtWidgets.QMainWindow):
     def __init__(self):
